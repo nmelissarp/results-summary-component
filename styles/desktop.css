@@ -1,0 +1,22 @@
+main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    height: 100vh;
+}
+
+.result {
+    margin-top: 0;
+    max-width: 30rem;
+    z-index: 1000;
+}
+
+.summary {
+    max-width: 37.5rem;
+    margin-left: -4rem;
+    padding-bottom: 0;
+    padding-left: 8rem;
+    box-shadow: 5px 5px 10px hsl(241, 100%, 99%),
+          0px -5px 10px hsl(241, 100%, 99%);
+  }
